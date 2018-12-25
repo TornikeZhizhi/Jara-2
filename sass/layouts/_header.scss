@@ -23,7 +23,7 @@
 		  	  li {
 
 		  	  	&:not(:last-child){
-		  	  		margin-right: 20px;
+		  	  		margin-right: 15px;
 		  	  	}
 		  	  }
 
@@ -35,7 +35,7 @@
 		  	  	transition: all .4s;
 
 		  	  	  &:hover {
-		  	  	  	background-color:#1D4F44;
+		  	  	  	background-color:#E89700;
 		  	  	  }
 		  	  }
 		  }
@@ -92,6 +92,10 @@
 	 	 	 	&:first-child{
 	 	 	 		margin-right:20px;
 	 	 	 	}
+
+	 	 	 	&:last-child {
+	 	 	 		font-family: 'Conv_BPG_Nino_Mkhedruli_Book';
+	 	 	 	}
 	 	 	 }
 	 	 }
 
@@ -99,3 +103,27 @@
 	 }
 
 }
+
+
+.respnsive_navbar {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	z-index: 5000;
+	top: 0;
+	right: 0;
+	transition: all .5s;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0,0,0,.8);
+
+	  &.active {
+	  	display: flex !important;
+	  }
+
+}
+
+
+
+

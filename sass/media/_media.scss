@@ -1,0 +1,207 @@
+@media only screen and (max-width: 1366px){
+
+.home_main_fluid .home_main_tittle h1 {
+	font-size: 40px;
+}
+
+.varie_fluid .varie_main_content h2 {
+
+    font-size: 30px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 1280px){
+.georgia_map_fluid .georgia_map_container {
+    width: 960px;
+  
+}
+
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+.video_slider_modal video {
+    width: 290px;
+    max-height: 350px;
+ 
+}
+
+.gallery_right {
+
+    flex-direction: column;
+}
+
+.home_video_fluid .home_video_wrapper video {
+	object-fit: contain;
+}
+
+.gallery_right .gallery_right_column {
+	width: 100%;
+}
+.contact_tittle span {
+    font-size: 20px;
+
+}
+
+.gallery_right .gallery_right_right .gallery_right_sm {
+	height: 100%;
+}
+
+.home_video_modal_fluid .home_video_modal video {
+
+}
+
+.gallery_right_sm {
+	display: none;
+}
+
+.gallery_container {
+	height: 600px;
+}
+
+.home_gallery_slider .owl-next {
+    right: -28px;
+    width: 25px;
+    height: 25px;
+
+}
+.home_gallery_slider .owl-prev {
+    left: -28px;
+    width: 25px;
+    height: 25px;
+}
+
+.gallery_readmore a {
+    color: #1E1E1E;
+    background-color: #fff;
+    padding: 5px 8px 4px 14px;
+    font-family: 'Conv_Centrale Sans Medium';
+    text-transform: uppercase;
+    position: relative;
+    font-size: 10px;
+}
+
+
+.home_video_slider_container .owl-next {
+
+    right: -27px;
+    width: 25px;
+    height: 25px;
+}
+
+.home_video_slider_container .owl-prev {
+
+    left: -27px;
+    width: 25px;
+    height: 25px;
+}
+
+
+.gallery_container {
+    flex-direction: column;
+}
+
+.gallery_container .gallery_left {
+	width: 100%;
+}
+
+.gallery_right {
+	width: 100%;
+}
+
+.home_sliders_fluid {
+    padding: 48px 10px;
+}	
+
+.varie_fluid .varie_main_content h2 {
+    font-size: 20px;
+}
+.home_video_slider_container {
+	width: 100%;
+}
+
+.varie_fluid .varie_main_content a {
+    padding: 7px 13px 5px 38px;
+    font-size: 11px;
+}
+.gallery_left_up_content h2 {
+    font-size: 22px;
+ 
+}
+
+.gallery_slider {
+	width: 100%;
+}
+
+.header {
+	padding: 25px 0;
+
+	.navigation {
+		display: none;
+	}
+}
+
+.home_video_modal_fluid .home_video_modal {
+	overflow: hidden;
+}
+
+.home_video_fluid .home_video_info .home_video_tittles {
+    margin-bottom: 10px;
+}
+
+.home_video_fluid .col-lg-5 {
+    padding-bottom: 30px;
+}
+
+.home_video_fluid .home_video_info {
+  
+    margin: 0 auto;
+}
+.home_video_fluid .home_video_wrapper {
+ 	height: 280px;
+    margin: 0 auto;
+}
+
+.georgia_map_fluid {
+	height: unset;
+}
+
+.georgia_map_fluid div img {
+    width: 10px;
+}
+
+
+.georgia_map_fluid .georgia_map_container {
+    width: 310px;
+}
+
+.georgia_map_fluid {
+ 
+    padding: 30px 0 10px;
+}
+
+
+.navigation ul {
+   
+    flex-direction: column;
+    text-align: left;
+}
+
+.home_main_fluid .home_main_tittle h1 {
+    font-size: 20px;
+}
+
+.language_box {
+	display: none;
+}
+
+.home_main_slider_fluid .owl-dots button {
+	width: 35px;
+}
+
+}

@@ -21,9 +21,16 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Conv_BONDO';
-	src: url('../fonts/BONDO.eot');
-	src: local('☺'), url('../fonts/BONDO.woff') format('woff'), url('../fonts/BONDO.ttf') format('truetype'), url('../fonts/BONDO.svg') format('svg');
+	font-family: 'Conv_BPG_Nino_Mkhedruli_Book';
+	src: url('../fonts/BPG_Nino_Mkhedruli_Book.eot');
+	src: local('☺'), url('../fonts/BPG_Nino_Mkhedruli_Book.woff') format('woff'), url('../fonts/BPG_Nino_Mkhedruli_Book.ttf') format('truetype'), url('../fonts/BPG_Nino_Mkhedruli_Book.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv___BOD_GN';
+	src: url('../fonts/__BOD_GN.eot');
+	src: local('☺'), url('../fonts/__BOD_GN.woff') format('woff'), url('../fonts/__BOD_GN.ttf') format('truetype'), url('../fonts/__BOD_GN.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
