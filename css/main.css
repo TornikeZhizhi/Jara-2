@@ -903,6 +903,9 @@ a:hover {
       height: 100%;
       object-fit: cover; }
 
+#map {
+  height: 500px; }
+
 @media only screen and (max-width: 1366px) {
   .home_main_fluid .home_main_tittle h1 {
     font-size: 40px; }
