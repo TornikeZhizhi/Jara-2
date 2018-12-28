@@ -234,4 +234,26 @@ $(".nd_main_tabs span").on("click",function(){
 
 
 
+// PopUpp 
+
+$(".gallery_container .gallery_readmore a").on("click",function(e){
+    e.preventDefault();
+    $(".gallery_modal_fluid").addClass("active");
+})
+
+$(".close_icon").on("click",function(){
+    $(".gallery_modal_fluid").removeClass("active");
+})
+
+$(".gallery_modal_fluid").on("click",function(){
+
+    $(this).removeClass("active");
+})
+
+$(".gallery_modal_content_box").on("click",function(e){
+    e.stopPropagation();
+})
+
+
+
 })

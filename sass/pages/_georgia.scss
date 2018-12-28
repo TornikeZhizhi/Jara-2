@@ -113,10 +113,12 @@
 	 top: 0;
 	 left: 0;
 	 z-index: 5000;
-	 display: flex;
+	 display: none;
 	 align-items: center;
 	 justify-content: center;
-
+		&.active {
+	  		display: flex !important;
+	  	}
 	  .gallery_modal_content_box {
 	  	background-color: #fff;
 	  	max-width: 1000px;
@@ -124,12 +126,16 @@
 	  	padding: 20px 50px 20px 20px;
 	  	display: flex;
 	  	position: relative;
+	  	animation: videoAnime 1s;
+
+	  	
 				
 				.close_icon {
 					position: absolute;
 					top: 5%;
 					right: 5%;
 					z-index: 100;
+					cursor: pointer;
 				}
 
 	  }
@@ -173,6 +179,9 @@
 	}
 }
 
-#map{
-	height: 500px;
+.locator_fluid {
+	overflow: hidden;
+	height: 140px;
+	background-color: #3A403E;
 }
+
