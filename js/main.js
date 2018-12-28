@@ -254,6 +254,44 @@ $(".gallery_modal_content_box").on("click",function(e){
     e.stopPropagation();
 })
 
+// Responsive navbar
+
+$(".hamburger_icon").click(function(){
+    $(".respnsive_navbar").addClass("active");
+
+})
+$(".resp_close").click(function(){
+    $(".respnsive_navbar").removeClass("active");
+
+})
+
+
+// Popup map
+$(window).on("click",function(){
+     $(".popup_fluid").removeClass("active");
+})
+
+$(".popup_fluid img").click(function(e){
+    e.stopPropagation()
+})
+
+
+$(".quare img").click(function(e){
+    $(".popup_fluid").removeClass("active");
+    $(".popup_fluid").addClass("active");
+    e.stopPropagation()
+})
+
+
+$(".resp_map_nav li").on("click",function(e){
+    e.stopPropagation()
+    
+    $(".popup_fluid").addClass("active");
+})
+
+
+
+
 
 
 })

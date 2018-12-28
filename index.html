@@ -11,29 +11,51 @@
 
 </head>
 <body>
-<!-- <a href="#" target="_blank">
-   				<img src="<?php echo $incpath; ?>assets/imgs/twit.png" />
-   			</a> -->
+
 
 <div class="container-fluid home_main_fluid">
 
 	<!-- Responsive Navbar -->
 	<div class="respnsive_navbar">
+
+		<div class="resp_close">
+			<div class="re_cl"></div>
+			<div class="re_cl"></div>
+		</div>
+
+		<div class="resp_language">
+			<span>eng</span>
+				<span>ქართ</span>
+		</div>
+
 		<div class="navigation_r">
 			<ul>
-				<li><a href="">Home</a></li>
+				<li><a class="active" href="">Home</a></li>
 				<li><a href="">georgia</a></li>
 				<li><a href="">georgia bees</a></li>
 				<li><a href="">honey varietals</a></li>
 				<li><a href="">gallery</a></li>
 				<li><a href="">locator</a></li>
 			</ul>
+
+			<div class="serach_rest">
+				<input type="" name="">
+				<img src="images/search_re.png">
+			</div>
 		</div>				
 	</div>
 
 
 	<!-- !Header  -->
 	<div class="header">
+
+		<!-- // Hamburger  -->
+			<div class="hamburger_icon">
+				<div class="ham"></div>
+				<div class="ham"></div>
+				<div class="ham"></div>
+			</div>
+		<!-- // Hamburger  -->
 		<div class="navigation">
 			<ul>
 				<li><a href="index.html">Home</a></li>
@@ -103,12 +125,34 @@
 
 <div class="container-fluid georgia_map_fluid" id="georgia_map">
 
+		<div class="resp_map_nav">
+			<ul>
+				<li><img src="images/Group 373@2x.png"><span>Abkhazia</span> </li>
+				<li><img src="images/Group 376@2x.png"><span>Samegrelo-zemo svaneti</span> </li>
+				<li><img src="images/Group 377@2x.png"><span>Guria</span></li>
+				<li><img src="images/Group 373@2x.png"><span>ADJARA</span></li>
+				<li><img src="images/Group 376@2x.png"><span>Imereti</span></li>
+				<li><img src="images/Group 377@2x.png"><span>Racha-lechkhumi  and kveni svaneti</span></li>
+				<li><img src="images/Group 373@2x.png"><span>Shida kartli
+</span></li>
+				<li><img src="images/Group 376@2x.png"><span>Mtsketa mtianeti
+</span></li>
+				<li><img src="images/Group 377@2x.png"><span>Samtkhe javakheti
+</span></li>
+				<li><img src="images/Group 373@2x.png"><span>Kvemo kartli
+</span></li>
+				<li><img src="images/Group 377@2x.png"><span>Kakheti</span></li>
+			</ul>
+
+		</div>
+
 	<div class="georgia_map_container">
 
 		<img src="images/adjara_map.png">
 	
 
 		<!-- // Map Tabs -->
+		<div class="quare">
 			<div class="afkhazia">
 				<img src="images/tab_1.png" alt="">
 			</div>
@@ -143,10 +187,11 @@
 			<div class="telavi">
 				<img src="images/tab_1.png">
 			</div>
+		</div>
 		<!-- // Map Tabs -->
 
 			<!-- //Popup  -->
-			<!-- 	<div class="popup_fluid">
+				<div class="popup_fluid">
 					<div class="popup_left">
 						<div class="flower_img_box">
 							<img src="images/tree.jpg">
@@ -158,12 +203,17 @@
 		
 					</div>
 
-					<div class="popup_right">
+					<div class="popup_text">
+						<p>Like wine and beer, honey has an array of flavor notes that can be tricky to pinpoint. A honey’s taste is influenced by the types of nectar and pollen bees collect. But until recently scientists couldn’t say precisely what bees fed on or where.</p>
+						<p>Like wine and beer, honey has an array of flavor notes that can be tricky to pinpoint. A honey’s taste is influenced by the types of nectar and pollen bees collect. But until recently scientists couldn’t say precisely what bees fed on or where.</p>
+					</div>
 
-		
+					<div class="popup_right">
+			
+						<img src="images/tree.jpg">
 					</div>
 				
-				</div> -->
+				</div>
 			<!-- //Popup  -->
 
 	</div>
@@ -282,39 +332,6 @@
 	<div class="container-fluid">
 <div class="container-fluid gallery_slider">
 
-<!-- // gallery modal  -->
-
-<div class="gallery_modal_fluid">
-	<div class="gallery_modal_content_box">
-
-		<!-- // modal clode -->
-			<div class="close_icon">
-
-				<img src="images/Group 427.png" alt="">
-			</div>
-		<!-- // modal clode -->
-
-		<div class="gallery_modal_img">
-			<img src="images/JARA HONEY-02@2x.jpg">
-		</div>
-
-		<div class="gallery_modal_text">
-			<div class="modal_gallery_tittle">
-				<h3>Tittle</h3>
-			</div>
-			<div class="modal_gallery_text">
-				<p>Destination East Greenland is just a short flight from Iceland but its culture and landscapes are a world away. In a land dominated by the Ice Cap and impossibly steep mountain ranges, 3,500 people have made their home.</p>
-
-				<p>Destination East Greenland is just a short flight from Iceland but its culture and landscapes are a world away. In a land dominated by the Ice Cap and impossibly steep mountain ranges, 3,500 people have made their home.</p>
-
-				<p>Destination East Greenland is just a short flight from Iceland but its culture and landscapes are a world away. In a land dominated by the Ice Cap and impossibly steep mountain ranges, 3,500 people have made their home.</p>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- // gallery modal  -->
-	
 <div class="owl-carousel owl-theme home_gallery_slider">	
 	<div class="gallery_container">	
 		<div class="gallery_left">
@@ -602,6 +619,39 @@
 	</div>
 </div>
 
+<!-- // gallery modal  -->
+
+<div class="gallery_modal_fluid">
+	<div class="gallery_modal_content_box">
+
+		<!-- // modal clode -->
+			<div class="close_icon">
+
+				<img src="images/Group 427.png" alt="">
+			</div>
+		<!-- // modal clode -->
+
+		<div class="gallery_modal_img">
+			<img src="images/JARA HONEY-02@2x.jpg">
+		</div>
+
+		<div class="gallery_modal_text">
+			<div class="modal_gallery_tittle">
+				<h3>Tittle</h3>
+			</div>
+			<div class="modal_gallery_text">
+				<p>Destination East Greenland is just a short flight from Iceland but its culture and landscapes are a world away. In a land dominated by the Ice Cap and impossibly steep mountain ranges, 3,500 people have made their home.</p>
+
+				<p>Destination East Greenland is just a short flight from Iceland but its culture and landscapes are a world away. In a land dominated by the Ice Cap and impossibly steep mountain ranges, 3,500 people have made their home.</p>
+
+				<p>Destination East Greenland is just a short flight from Iceland but its culture and landscapes are a world away. In a land dominated by the Ice Cap and impossibly steep mountain ranges, 3,500 people have made their home.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- // gallery modal  -->
+	
 
 
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> -->
