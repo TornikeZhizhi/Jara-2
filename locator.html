@@ -155,6 +155,21 @@
           center: {lat: -34.397, lng: 150.644},
           zoom: 8
         });
+
+        var markers = locations.map(function(location, i) {
+          return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length]
+          });
+        });
+
+      
+	      var locations = [
+	        {lat: 41.8290215, lng: 45.0329503},
+	        {lat: 41.6726867 , lng: 41.7945732}
+	      ];
+
+
       }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAolcLbNzqol-KdQZVNbu2z_VZTAOHbUd8&callback=initMap"
