@@ -406,6 +406,13 @@
           styles: mapStyle
         });
 
+        var locations = [
+	        {lat: 41.8290215, lng: 45.0329503},
+	        {lat: 41.6726867 , lng: 41.7945732}
+	      ];
+
+
+
         var markers = locations.map(function(location, i) {
           return new google.maps.Marker({
             position: location,
@@ -414,11 +421,7 @@
         });
 
       
-	      var locations = [
-	        {lat: 41.8290215, lng: 45.0329503},
-	        {lat: 41.6726867 , lng: 41.7945732}
-	      ];
-
+	      
 
       }
     </script>
