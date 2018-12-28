@@ -25,9 +25,27 @@
 
 @media only screen and (max-width: 992px) {
 
+	.home_video_modal_fluid .home_video_modal video{
+		width: 290px;
+    max-height: 200px;
+		object-fit: contain;
+	}
+
+	.gallery_readmore {
+		bottom: 33%;
+	}
+
+	.home_video_modal {
+		height: unset !important;
+	}
+
+	.video_slider_modal video {
+		object-fit: contain;
+	}
+
 .video_slider_modal video {
     width: 290px;
-    max-height: 350px;
+    max-height: 200px;
  
 }
 

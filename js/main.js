@@ -68,6 +68,27 @@ $('.video_slider_wrapper').owlCarousel({
 })
 
 
+$('.home_video_modal').owlCarousel({
+    loop:true,
+    margin:5,
+    dots:false,
+    smartSpeed: 1500,
+    responsive:{
+        0:{
+            items:1
+        },
+        690:{
+            items:1
+        },
+        992:{
+            items:1
+        },
+        1200:{
+            items:1
+        }
+    }
+})
+
 
 // Scroll
 
@@ -88,7 +109,14 @@ $(".video_play span").on("click",function(){
 
 $(".home_video_modal_fluid").on("click",function(){
    $(this).removeClass("active")
+
+
 })
+
+$(".home_video_modal_fluid2").on("click",function(){
+   $(this).removeClass("active")
+})
+
 
 $(".home_video_modal").on("click",function(e){
     e.stopPropagation();
@@ -107,6 +135,7 @@ $(window).on("click",function(){
 
 $(".header_search").on("click",function(e){
     e.stopPropagation();
+    
 })
 
 // Video Slider
@@ -169,8 +198,10 @@ $(".home_video_modal video").click(function() {
 // Video Modal
 
 $(".home_video_box video").on("click",function(){
-    $(".video_slider_modal").addClass("active");
+    $(".home_video_modal_fluid2").addClass("active");
 })
+
+
 
 $(".video_slider_modal").on("click",function(){
    $(this).removeClass("active")
@@ -190,6 +221,16 @@ $(window).on("load",function(){
 
 })
 
+
+
+// tabs
+
+$(".nd_main_tabs span").on("click",function(){
+
+    $(".nd_main_tabs span").removeClass("active");
+    $(this).addClass("active");
+
+})
 
 
 
